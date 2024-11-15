@@ -2048,3 +2048,33 @@ git add README.md
 git commit -m "fix(readme): arreglado salto de línea en el readme"
 git push
 cat $HOME/.bash_history 
+cp $HOME/.bash_history $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+ls
+ls -a
+cat .bash_history 
+git status
+git add .bash_history 
+git commit -m "feat(.bash_history): agregado historial de comandos inicial"
+git push
+git status
+git add RTA_Examen_20241112/
+git commit -m "feat: agregada la carpeta con los scripts"
+git push
+git status
+cd ..
+git status
+ls $HOME/repogit/UTN-FRA_SO_Examenes/
+ls $HOME/repogit/UTN-FRA_SO_Examenes/202406/
+cp $HOME/repogit/UTN-FRA_SO_Examenes/202406/ $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+cd UTNFRA_SO_2do_Parcial_Velasco/
+ls
+cp $HOME/repogit/UTN-FRA_SO_Examenes/202406/ $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+cp -r $HOME/repogit/UTN-FRA_SO_Examenes/202406/ $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+ls
+ls 202406/
+git status
+cp $HOME/.bash_history $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+git status
+git add 202406/
+git commit -m "feat(utn-fra_so_examenes): agregada carpeta del examen"
+git push
