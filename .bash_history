@@ -3240,3 +3240,16 @@ git status
 git add Punto_D.sh 
 git commit -m "fix(punto_d): agregados comentarios para el punto d (completado)"
 git push
+cp $HOME/.bash_history $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+git status
+cd ..
+git add .bash_history 
+git commit -m "feat(history): agregado historial de comandos del punto d"
+git push
+ls
+git status
+git add *
+git status
+git status
+git commit -m "feat(ansible): agregados archivos generados tras ejecutar el script del punto d"
+git push
