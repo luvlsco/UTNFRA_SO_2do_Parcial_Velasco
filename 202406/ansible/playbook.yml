@@ -9,3 +9,14 @@
       debug:
         msg: "Despues de la ejecucion del rol"
 
+    - name: "ROL: crear_estructura_directorios"
+      import_role:
+        name: crear_estructura_directorios
+
+    - name: "ROL: generar_archivos"
+      import_role:
+        name: generar_archivos
+
+    - name: "ROL: configurar_sudoers"
+      import_role:
+        name: configurar_sudoers

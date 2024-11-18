@@ -1,0 +1,16 @@
+---
+# tasks file for crear_estructura_directorios
+- name: Crear directorio base
+  file:
+    path: /tmp/2do_parcial
+    state: directory
+
+- name: Crear subdirectorio alumno
+  file:
+    path: /tmp/2do_parcial/alumno
+    state: directory
+
+- name: Crear subdirectorio equipo
+  file:
+    path: /tmp/2do_parcial/equipo
+    state: directory

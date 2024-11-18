@@ -1,0 +1,8 @@
+---
+# tasks file for configurar_sudoers
+- name: "Configuración de sudoers"
+  lineinfile:
+    path: /etc/sudoers
+    line: '%2PSupervisores ALL=(ALL) NOPASSWD: ALL'
+    validate: 'visudo -cf %s'
+    state: present
