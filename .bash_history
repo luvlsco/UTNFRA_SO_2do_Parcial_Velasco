@@ -2929,3 +2929,23 @@ git add .
 git status
 git commit -m "feat(docker-files): agregados los archivos de docker, modificados/creados por el script del punto C"
 git push
+cp $HOME/.bash_history $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+cd ..
+ls
+git status
+cd ..
+ls
+git status
+git add .bash_history 
+git commit -m "feat(history): agregado historial de comandos del punto c"
+git push
+cd repogit/
+ls
+cd UTNFRA_SO_2do_Parcial_Velasco/
+git status
+cd RTA_Examen_20241112/
+ls
+vim Punto_C.sh 
+git add Punto_C.sh 
+git commit -m "fix(punto_c): pequeños cambios en el punto c (completado)"
+git push
