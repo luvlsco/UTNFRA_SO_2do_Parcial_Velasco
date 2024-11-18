@@ -2078,3 +2078,299 @@ git status
 git add 202406/
 git commit -m "feat(utn-fra_so_examenes): agregada carpeta del examen"
 git push
+cp $HOME/.bash_history $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+git diff .bash_history
+git add .bash_history 
+git commit -m "feat(.bash_history): actualizado historial de comandos"
+git push
+lsblk
+sudo fdisk
+sudo fdisk /dev/sdc
+lsblk
+sudo umount /dev/sdc
+lsblk
+lsblk
+sudo umount /dev/sdb1
+mount | grep sdb
+lsblk -l
+lsblk -a
+sudo lvremove /dev/vg_web/lv_web1
+sudo lvremove /dev/vg_web/lv_web2
+sudo lvremove /dev/vg_web/lv_web3
+lsblk
+sudo fdisk
+sudo fdisk /dev/sdb1
+sudo fdisk /dev/sdb
+lsblk
+sudo fdisk /dev/sdc
+lsblk
+lsblk
+ls
+pwd
+cd repogit
+ls
+cd UTNFRA_SO_2do_Parcial_Velasco/
+ls
+git status
+cd RTA_Examen_20241112/
+ls
+vim Punto_A.sh 
+ls
+cat Punto_A.sh 
+lslbk
+lsblk
+ls
+cd ..
+ls
+cd 202406/
+ls
+ls ansible/
+ls bash_script/
+ls _checks/
+ls docker
+cd ..
+sudo fdisk -l
+lsblk
+lsblk
+docker
+lsblk
+cd repogit/UTNFRA_SO_2do_Parcial_Velasco/
+git status
+lsblk
+sudo fdisk /dev/sdb
+lsblk
+sudo fdisk /dev/sdc
+lsblk
+sudo fdisk /dev/sdc
+sudo fdisk /dev/sdb
+lsblk
+ls
+cd RTA_Examen_20241112/
+vim Punto_A.sh 
+echo $DISCO=$(sudo fdisk -l | grep "10 GiB" | awk '{print $2}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "10 GiB" | awk '{print $2}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "2 GiB" | awk '{print $2}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "2 GiB" | awk '{print $2}' | awk -F ':' '{print $1}' | head -n 1)
+echo DISCO=$(sudo fdisk -l | grep "1 GiB" | awk '{print $2}' | awk -F ':' '{print $1}')
+vim Punto_A.sh 
+lsblk
+vim Punto_A.sh 
+bash Punto_A.sh 
+vim Punto_A.sh 
+bash Punto_A.sh 
+vim Punto_A.sh 
+bash Punto_A.sh 
+vim Punto_A.sh 
+bash Punto_A.sh 
+vim Punto_A.sh 
+sudo fdisk /dev/sdb
+vim Punto_A.sh 
+sudo fdisk /dev/sdb
+vim Punto_A.sh 
+bash Punto_A.sh
+lsblk
+sudo fdisk /dev/sdb
+sudo fdisk /dev/sdb
+lsblk
+vim Punto_A.sh 
+lsblk
+bash Punto_A.sh
+lsblk
+sudo fdisk /dev/sdb
+sudo fdisk /dev/sdc
+sudo fdisk /dev/sdc
+lsblk
+sudo fdisk /dev/sdc
+vim Punto_A.sh 
+bash Punto_A.sh 
+sudo fdisk -l
+echo DISCO=$(sudo fdisk -l | grep "Linux Swap" | awk '{print $2}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "Linux swap" | awk '{print $2}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "Linux swap" | awk '{print $1}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "Linux swap" | awk '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "Linux swap" | awk '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "Linux LVM" | awk '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "Linux swap" | awk '{print $1}')
+vim Punto_A.sh 
+lsblk
+bash Punto_A.sh 
+lsblk
+vim Punto_A.sh 
+lsblk
+vim Punto_A.sh 
+sudo fdisk -l
+vim Punto_A.sh 
+lsblk
+sudo fdisk /dev/sdb
+sudo fdisk /dev/sdc
+lsblk
+bash Punto_A.sh 
+lsblk
+vim Punto_A.sh 
+lsblk
+sudo fdisk /dev/sdb
+lsblk
+sudo fdisk /dev/sdb
+sudo umount /dev/sdb1
+lsblk
+sudo umount /dev/sdb1
+bash Punto_A.sh 
+sudo umount /dev/sdb1
+lsblk
+sudo lvchange -an /dev/vg_datos/lv_docker
+lsblk
+sudo lvchange -an /dev/vg_datos/lv_workareas
+lsblk
+sudo fdisk /dev/sdb
+lsblk
+sudo fdisk /dev/sdc
+lsblk
+vim Punto_A.sh 
+bash Punto_A.sh 
+lsblk
+vim Punto_A.sh 
+cat Punto_A.sh 
+vim Punto_A.sh 
+lsblk
+sudo lvchange -f /dev/vg_datos/lv_docker
+sudo lvremove -f /dev/vg_datos/lv_docker
+lsblk
+sudo lvremove -f /dev/vg_datos/lv_workareas
+sudo lvremove -f /dev/vg_datos/lv_swap
+sudo vgremove -f /dev/vg_datos/lv_swap
+sudo vgremove -f vg_datos
+lsblk
+sudo vgremove -f vg_datos
+vglist
+vg list
+sudo vgremove -f vg_docker
+sudo lvremove -f /dev/vg_temp/lv_swap
+lsblk
+sudo pvremove -f /dev/sdb
+lsblk
+sudo pvremove -f /dev/sdc
+lsblk
+sudo fdisk /dev/sdb
+sudo fdisk /dev/sdc
+lsbkl
+lsblk
+vim Punto_A.sh 
+bash Punto_A.sh 
+sudo vgremove -f vg_temp
+sudo lvdisplay
+sudo lvremove -f /dev/vg_temp/lv_swap
+sudo lvremove -f /dev/vg_datos
+sudo lvdisplay
+sudo vgdisplay
+sudo lvremove -f /dev/vg_datos
+sudo vgremove -f /dev/vg_datos
+sudo vgdisplay
+sudo lvdisplay
+lsblk
+vim Punto_A.sh 
+vim Punto_A.sh 
+lsblk
+sudo fdisk /dev/sd
+sudo fdisk /dev/sdb
+sudo fdisk /dev/sdc
+lsblk
+lsblk
+bash Punto_A.sh 
+lsblk
+sudo fdisk -l
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}')
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk -f ':' '{print $2}')
+echo DISCO=$(sudo fdisk -l | grep "10 GiB" | awk '{print $2}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}' | awk -F ':')
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}' | awk -F ':' '{print $0}')
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}' | awk -F ':' '{print $2}')
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk '{print $1}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}' | awk -F ':' '{print $1}')
+vim Punto_A.sh 
+sudo fdisk -l
+vim Punto_A.sh 
+echo DISCO=$(sudo fdisk -l | grep "lv_workareas" | awk '{print $2}' | awk -F ':' '{print $1}')
+echo DISCO=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}' | awk -F ':' '{print $1}')
+vim Punto_A.sh 
+echo DISCO=$(sudo fdisk -l | grep "lv_swap" | awk '{print $2}' | awk -F ':' '{print $1}')
+vim Punto_A.sh 
+vim Punto_A.sh 
+sudo mkfs.ext4
+sudo mkfs.ext4 /dev/mapper/vg_datos-lv_docker
+vim Punto_A.sh 
+lsblk -f
+lsblk
+sudo mkdir -p /var/lib/docker
+ls /var/lib/
+ls /var/lib/docker/
+sudo ls /var/lib/docker/
+sudo ls /work/
+sudo ls /work
+sudo mkdir -p /work
+sudo ls /work
+sudo ls /work/
+sudo ls /work/
+sudo rm -rf /work
+ls
+ls /
+sudo mkdir -p /work
+ls /
+sudo rm -rf /work
+vim Punto_A.sh 
+cat Punto_A.sh 
+vim Punto_A.sh 
+echo PARTICION_LVM=$(sudo fdisk -l | grep "Linux LVM" | awk '{print $1}')
+vim Punto_A.sh 
+vim Punto_A.sh 
+cat Punto_A.sh 
+echo "${DISCO}5 /Examenes-UTN/alumno_1/parcial_1 ext4 defaults 0 0"
+vim Punto_A.sh 
+cat Punto_A.sh 
+vim Punto_A.sh 
+lsblk
+vgs
+sudo vgs
+sudo vgremove vg_datos
+sudo vgs
+sudo vgremove vg_temp
+lsblk
+sudo fdisk
+sudo fdisk -l
+sudo fdisk /dev/sdb
+sudo fdisk /dev/sdc
+lsblk
+cat Punto_A.sh 
+git status
+git add Punto_A.sh 
+git commit -m "feat(punto_a): agregado el script del punto a (completado)"
+git push
+cat $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+cat $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/.bash_history 
+cp $HOME/.bash_history $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+cat $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/.bash_history 
+git status
+git diff ../.bash_history
+git status
+cd ..
+ls
+cd ..
+ls
+cd UTNFRA_SO_2do_Parcial_Velasco/
+ls
+ls -a
+git status
+git add .bash_history 
+git commit -m "feat(history): agregado el historial de comandos del punto a"
+git push
+history
+git status
+cp $HOME/.bash_history $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+git commit -m "feat(history): agregado historial de comandos del punto a"
+git push 
+ls -a
