@@ -1,0 +1,3 @@
+#!/bin/bash
+docker run -d -p 8080:80 luvlsco/web1-velasco
+
