@@ -2374,3 +2374,358 @@ cp $HOME/.bash_history $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
 git commit -m "feat(history): agregado historial de comandos del punto a"
 git push 
 ls -a
+cp $HOME/.bash_history $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+git status
+git add .bash_history 
+git commit -m "feat(history): agregado historial de comandos de la consigna a"
+git push
+git status
+lsblk
+ls
+cd RTA_Examen_20241112/
+vim Punto_B.sh 
+ls
+cd 
+ls
+cd /ect/shadow
+cd /etc/shadow
+ls
+cd ./etc/shadow
+cd /usr/local
+cd bin
+ls
+cd ..
+ls
+cd bin
+touch TouchAltaUser-Groups.sh
+sudo touch TouchAltaUser-Groups.sh
+ls
+sudo rm -rf TouchAltaUser-Groups.sh 
+sudo touch VelascoAltaUser-Groups.sh
+vim $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_B.sh 
+cd $HOME/repogit/
+ls
+cd UTNFRA_SO_2do_Parcial_Velasco/
+ls
+cd 202406
+ls
+cd bash_script/
+ls
+cat Lista_Usuarios.txt 
+echo PARTICION_LVM=$(sudo cat $HOME | grep "Linux LVM" | awk '{print $1}')
+echo PARTICION_LVM=$(sudo find  $HOME | grep "Linux LVM" | awk '{print $1}')
+Lista=$(cat ~/repogit/UTNFRA_SO_2do_Parcial_Velasco/202406/bash_script/Lista_Usuarios.txt)
+echo Lista=$(cat ~/repogit/UTNFRA_SO_2do_Parcial_Velasco/202406/bash_script/Lista_Usuarios.txt)
+echo Lista=$(cat ~/UTNFRA_SO_2do_Parcial_Velasco/202406/bash_script/Lista_Usuarios.txt)
+echo Lista=$(cat $(find ~/repogit/UTNFRA_SO_2do_Parcial_Velasco/ -type f -name "Lista_Usuarios.txt"))
+echo Lista=$(cat $(find ~/repogit/ -type f -name "Lista_Usuarios.txt"))
+echo Lista=$(cat $(find ~/repogit -type f -name "Lista_Usuarios.txt"))
+echo Lista=$(cat $(find $HOME -type f -name "Lista_Usuarios.txt"))
+Lista=$(cat $(find $HOME -type f -name "Lista_Usuarios.txt" -print -quit))
+echo Lista=$(cat $(find $HOME -type f -name "Lista_Usuarios.txt" -print -quit))
+echo A=$2
+echo Lista=$(cat $(find $HOME/ -type f -name "Lista_Usuarios.txt" -print -quit))
+echo Lista=$(cat $(find $HOME/202406 -type f -name "Lista_Usuarios.txt" -print -quit))
+cat RutaCarpeta=$(find $HOME -type d -name "202406" -print -quit)
+echo RutaCarpeta=$(find $HOME -type d -name "202406" -print -quit)
+echo RutaCarpeta=$(find $HOME -type d -name "202406/bash_script" -print -quit)
+echo RutaCarpeta=$(find $HOME -type d -wholename "202406/bash_script" -print -quit)
+echo RutaCarpeta=$(find $HOME -type d -name "202406/bash_script" -print -quit)
+echo RutaCarpeta=$(find $HOME -type d -name "202406" -print -quit) && echo $(find "$RutaCarpeta/bash_script" -type f -name "Lista_Usuarios.txt" -print -quit)
+ls
+cd repogit
+ls
+cd UTNFRA_SO_2do_Parcial_Velasco/
+ls
+cd 202406
+cd bash_script/
+ls
+echo RutaCarpeta=$(find $HOME -type d -name "202406" -print -quit) && echo $(find "$RutaCarpeta/bash_script" -type f -name "Lista_Usuarios.txt" -print -quit)
+RutaCarpeta=$(find $HOME -type d -name "202406" -print -quit) && find "$RutaCarpeta/bash_script" -type f -name "Lista_Usuarios.txt" -print -quit
+echo RutaCarpeta=$(find $HOME -type d -name "202406" -print -quit) && find "$RutaCarpeta/bash_script" -type f -name "Lista_Usuarios.txt" -print -quit
+cat RutaCarpeta=$(find $HOME -type d -name "202406" -print -quit) && find "$RutaCarpeta/bash_script" -type f -name "Lista_Usuarios.txt" -print -quit
+echo Lista=$(cat "$(find $HOME -type d -name "202406" -print -quit)/bash_script/Lista_Usuarios.txt")
+echo Lista=$(cat "$(find $HOME -type d -name "202406" -print -quit)/bash_script/Lista_Usuarios.txt")
+cat /etc/shadow
+sudo cat /etc/shadow
+echo Lista=$(cat "$(find $HOME -type d -name "202406" -print -quit)/bash_script/Lista_Usuarios.txt")
+echo Lista=$(cat "$(find $HOME -type d -name "202406" -print -quit)/bash_script/Lista_Usuarios.txt")
+cd ..
+cd ..
+ls
+cd RTA_Examen_20241112/
+ls
+vim Punto_B.sh 
+vim Punto_B.sh 
+ls
+bash Punto_B.sh 
+vim Punto_B.sh 
+cd ..
+ls
+cd 202406/
+ls
+cd bash_script/
+ls
+cat -n Lista_Usuarios.txt 
+ls
+cd ..
+cd ..
+cd RTA_Examen_20241112/
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+vim Punto_B.sh 
+vim Punto_B.sh 
+echo t=$(sudo cat /etc/shadow | grep "lucas" | awk -F ':' '{print $2}')
+cat /dev/etc
+sudo cat /dev/etc
+sudo cat /etc/shadow
+echo t=$(sudo cat /etc/shadow | grep "lucas" | awk -F ':' '{print $2}')
+vim Punto_B.sh 
+vim Punto_B.sh 
+pwd
+vim Punto_B.sh 
+vim Punto_B.sh 
+ls
+cd ..
+ls
+cd 202406/
+ls
+cd bash_script/
+ls
+pwd
+cd ..
+cd ..
+ls
+cd RTA_Examen_20241112/
+ls
+vim Punto_B.sh 
+echo a=($whoami)
+echo a=$whoami
+echo whoami
+whoami
+ls
+ls
+vim Punto_A.sh 
+vim Punto_C.sh
+sudo bash Punto_C.sh
+vim Punto_B.sh 
+vim Punto_C.sh 
+sudo bash Punto_C.sh
+vim Punto_C.sh 
+sudo bash Punto_C.sh
+ls
+cd ..
+ls
+cd 202406/
+ls
+cd bash_script/
+ls
+vim Punto_C.sh 
+cd ..
+ls
+cd ..
+ls
+cd RTA_Examen_20241112/
+ls
+vim Punto_C.sh 
+echo "Buscando en: $(find $HOME -type d -name "202406" -print -quit)/bash_script/Lista_Usuarios.txt"
+echo " $(find $HOME -type d -name "22406" -print -quit)/bash_script/Lista_Usuarios.txt"
+echo " $(find $HOME -type d -name "202406" -print -quit)/bash_script/Lista_Usuarios.txt"
+vim Punto_C.sh 
+vim Punto_C.sh 
+sudo bash Punto_C.sh
+vim Punto_C.sh 
+sudo bash Punto_C.sh
+vim Punto_C.sh 
+sudo bash Punto_C.sh
+vim Punto_C.sh 
+sudo bash Punto_C.sh
+vim Punto_C.sh 
+sudo bash Punto_C.sh 
+bash Punto_C.sh 
+sudo bash Punto_C.sh 
+sudo -E bash Punto_C.sh 
+vim Punto_C.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+ls $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/202406/
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+cat /etc/shadow
+sudo cat /etc/shadow
+vim Punto_B.sh 
+echo CLAVE_USUARIO=$(sudo cat /etc/shadow | grep "$whoami" | awk -F ':' '{print $2}')
+echo CLAVE_USUARIO=$(sudo cat /etc/shadow | grep "$whoami" | awk -F ':' '{print $2}')
+echo CLAVE_USUARIO=$(sudo cat /etc/shadow | grep "lucas" | awk -F ':' '{print $2}')
+whoami
+echo CLAVE_USUARIO=$(sudo cat /etc/shadow | grep "whoami" | awk -F ':' '{print $2}')
+echo CLAVE_USUARIO=$(sudo cat /etc/shadow | grep "$whoami" | awk -F ':' '{print $2}')
+echo CLAVE_USUARIO=$(sudo cat /etc/shadow | grep "$(whoami)" | awk -F ':' '{print $2}')
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+vim Punto_B.sh 
+vim Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+vim Punto_B.sh 
+ls -a
+sudo rm -rf .Punto_B.sh.swp
+vim Punto_B.sh
+bash Punto_B.sh 
+sudo userdel -r 2P_202406_*
+sudo userdel -r 2P_202406_Prog
+sudo userdel -r 2P_202406_Prog1
+sudo userdel -r 2P_202406_Prog2
+sudo userdel -r 2P_202406_Supervisor 
+sudo userdel -r 2P_202406_Test1 
+bash Punto_B.sh 
+vim Punto_B.sh 
+cat Punto_B.sh 
+vim Punto_B.sh 
+sudo userdel -r 2P_202406_Prog1
+sudo userdel -r 2P_202406_Prog2
+sudo userdel -r 2P_202406_Supervisor 
+sudo userdel -r 2P_202406_Test1 
+bash Punto_B.sh 
+cut -d: -f1 /etc/passwd
+cut -d: -f1 /etc/group
+ls
+cd ..
+ls
+cd 202406/
+ls
+cd bash_script/
+ls
+cat Lista_Usuarios.txt 
+ls -l /home
+sudo userdel -r lunes
+sudo userdel lunes
+sudo rm -r /home/lunes
+sudo rm -r /home/lunes
+ls
+$HOME/lunes
+ls
+ls -l /home
+lsblk
+lsblk
+cut -d: -f1 /etc/passwd
+sudo userdel -r 2P_202406_Test1 
+sudo userdel -r 2P_202406_Prog1
+sudo userdel -r 2P_202406_Prog2
+sudo userdel -r 2P_202406_Supervisor 
+lsblk
+ls -l /home
+ls -ld /home/*
+cut -d: -f1 /etc/passwd
+lsblk
+ls
+cd ..
+cd ..
+ls
+cd RTA_Examen_20241112/
+ls
+sudo rm -rf Directorio_Home/
+ls
+cat Punto_B.sh 
+vim Punto_B.sh 
+bash Punto_B.sh 
+ls
+ls
+cd ..
+ls
+cd 202406/
+ls
+cd bash_script/
+cat -n Lista_Usuarios.txt 
+vim Punto_B.sh 
+ls
+cd .
+cd ..
+ls
+cd ..
+ls
+cd RTA_Examen_20241112/
+ls
+sudo rm -rf Directorio_Home/
+vim Punto_B.sh 
+cat /etc/passwd
+sudo userdel -r 2P_202406_Prog1
+sudo userdel -r 2P_202406_Prog2
+sudo userdel -r 2P_202406_Supervisor 
+sudo userdel -r 2P_202406_Test1 
+cat /etc/group
+sudo groupdel Grupo_Primario 
+sudo groupdel 2P_G
+sudo groupdel 2P_GDesa 
+sudo groupdel 2P_GTest 
+sudo groupdel 2PSupervisores 
+cut -d: -f1,6 /etc/passwd
+ls
+cat Punto_B.sh 
+ls
+vim Punto_B.sh 
+bash Punto_B.sh 
+cat /etc/passwd
+cat /etc/group
+cut -d: -f1,6 /etc/passwd
+ls
+cd ..
+ls
+cd 202406/
+ls
+cd bash_script/
+ls
+cat -n Lista_Usuarios.txt 
+git status
+ls
+cd ..
+cd ..
+cd
+cd repogit/UTNFRA_SO_2do_Parcial_Velasco/
+ls
+cd RTA_Examen_20241112/
+git add Punto_B.sh 
+git commit -m "feat(punto_b): agregado el script del punto b (completado)"
+git push
+cp $HOME/.bash_history $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+git status
+cd ..
+git add .bash_history 
+git commit -m "feat(history): agregado historial de comandos del punto b"
+git push
+pwd
