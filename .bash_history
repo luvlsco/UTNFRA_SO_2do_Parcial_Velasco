@@ -2949,3 +2949,294 @@ vim Punto_C.sh
 git add Punto_C.sh 
 git commit -m "fix(punto_c): pequeños cambios en el punto c (completado)"
 git push
+cp $HOME/.bash_history $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+git status
+cd ..
+git add .bash_history 
+git commit -m "feat(history): agregado historial de comandos dpara el fix del punto c"
+git push
+cd 202406/
+ls
+cd ansible/
+ls
+cat -n README.md 
+cd ..
+cd ..
+ls
+cd RTA_Examen_20241112/
+ls
+vim Punto_D.sh 
+sudo apt installed --list
+sudo apt list --installed
+sudo apt list --installed | grep ansible
+ansible-playbook -help
+ansible
+ls
+cd ..
+ls
+cd RTA_Examen_20241112/
+PWD
+pwd
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls $HOME
+ls $HOME -la
+ls $HOME -a
+ls $HOME/.ssh -a
+cat $HOME/.ssh/known_hosts
+ls $HOME/.ssh -a
+cat $HOME/.ssh/authorized_keys 
+cat $HOME/.ssh/id_ed25519
+cat $HOME/.ssh/id_ed25519.pub 
+ssh-keygen -t ed25519
+ls $HOME/.ssh -a
+sudo rm -rf $HOME/.ssh/id_ed25519
+sudo rm -rf $HOME/.ssh/id_ed25519.pub 
+ssh-keygen -t ed25519
+cat $HOME/.ssh/authorized_keys 
+cat $HOME/.ssh/id_ed25519.pub 
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ssh-keygen -t ed25519
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ssh-keygen -t ed25519
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ssh-keygen -t ed25519
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ssh-keygen -t ed25519
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+cat $HOME/.ssh/id_ed25519.pub 
+ls $HOME/.ssh
+ls $HOME/.ssh -a
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+echo $HOME
+cat $HOME/.ssh/authorized_keys 
+cat $HOME/.ssh/id_ed25519.pub 
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+cat $HOME/.ssh/authorized_keys 
+cat $HOME/.ssh/id_ed25519.pub
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+echo RUTA_DOCKER=$(find $HOME -type d -name "202406" | awk 'NR==1')/docker
+cd ..
+ls
+cd 202406/
+ls
+echo RUTA_DOCKER=$(find $HOME -type d -name "202406" | awk 'NR==1')/ansible
+cd ansible
+ls
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+cat ansible.cfg
+cd inventory/
+ls
+cd ..
+ls
+cat playbook.yml 
+ls
+cd ..
+tree ansible
+w
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+cd ansible
+ls
+tree roles
+ls
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+cd crear_estructura_directorios/
+ls
+cat README.md 
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+cd ..
+tree ansible
+cd ..
+cd ..
+cd 202406/
+tree ansible
+ls /tmp
+ls /tmp/
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+cat /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+cd ansible/
+ls
+cd roles
+ls
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+cd ..
+ls
+tree
+ls
+ls
+sudo rm -rf crear_estructura_directorios/
+sudo rm -rf generar_archivos/
+sudo rm -rf configurar_sudoers/
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+pwd
+ls
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+cd roles
+ls
+sudo rm -rf crear_estructura_directorios/
+sudo rm -rf orear_estructura_directorios/
+sudo rm -rf generar_archivos/
+sudo rm -rf configurar_sudoers/
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+cd crear_estructura_directorios/
+ls
+cd templates/
+ls
+cd ..
+cd ..
+ls
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+cd generar_archivos/
+ls
+sudo rm -rf generar_archivos/
+ls
+cd ..
+sudo rm -rf generar_archivos/
+ls
+sudo rm -rf crear_estructura_directorios/
+sudo rm -rf configurar_sudoers/
+ls
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+cd generar_archivos/
+ls
+cd templates/
+ls
+ls
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+cd ..
+ls
+cd tasks/
+ls
+cat main.yml 
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+cat /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+sudo visudo
+cd ..
+cd ..
+ls
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+cd ..
+tree
+ls
+cat playbook.yml 
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+cd roles
+tree
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+cd ..
+ls
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+cat /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls /tmp/
+ls /tmp/2do_parcial/
+ls /tmp/2do_parcial/alumno/
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+cat /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+cd inventory/
+ls
+sudo systemctl status ssh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ssh
+ssh lucas
+sudo systemctl status ssh
+cat /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+cat /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+cat /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+ls /tmp/2do_parcial/alumno
+ls /tmp/2do_parcial/alumno/datos_alumno.txt 
+cat /tmp/2do_parcial/alumno/datos_alumno.txt 
+ls /tmp/2do_parcial/alumno/datos_alumno.txt 
+cat /tmp/2do_parcial/alumno/datos_alumno.txt 
+cat /tmp/2do_parcial/equipo/datos_equipo.txt 
+cd ..
+ls
+cd ..
+ls
+cd ..
+git
+git status
+cd RTA_Examen_20241112/
+ls
+sudo rm -rf y
+sudo rm -rf y.pub
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+git status
+ls
+cd roles
+ls
+cd ..
+sudo rm -rf roles
+ls
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+ls
+git status
+git add Punto_D.sh 
+git commit -m "feat(punto_d): agregado el script del punto d (completado)"
+git push
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_D.sh
+git status
+git add Punto_D.sh 
+git commit -m "fix(punto_d): agregados comentarios para el punto d (completado)"
+git push
