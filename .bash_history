@@ -2729,3 +2729,203 @@ git add .bash_history
 git commit -m "feat(history): agregado historial de comandos del punto b"
 git push
 pwd
+cp $HOME/.bash_history $HOME/repogit/UTNFRA_SO_2do_Parcial_Velasco/
+git status
+git add .bash_history 
+git commit -m "feat(history): agregado historial de comandos del punto b"
+git push
+git status
+cd RTA_Examen_20241112/
+vim Punto_C.sh 
+sudo systemctl status docker
+ls
+cd ..
+ls
+cd 202406
+ls
+cd _checks/
+ls
+bash check_B.sh 
+bash check_A.sh 
+ls
+cd ..
+ls
+cd docker
+ls
+cat -n index.html
+cd ..
+cd ..
+ls
+cd RTA_Examen_20241112/
+ls
+vim Punto_C.sh 
+echo asd=$(find / -type d -name "202406")
+echo asd=$(find $HOME -type d -name "202406")
+echo asd=$(find $HOME -type d -name "202406")
+echo asd=$(find $HOME -type d -name "202406")/docker
+ls
+cd ..
+ls
+cd 202406/
+ls
+echo asd=$(find $HOME -type d -name "202406/docker")
+ls
+echo asd=$(find $HOME -type d -wholename "$HOME/202406/docker")
+echo asd=$(find $HOME -type d -name "202406")/docker
+echo asd=$(find $HOME -type d -name "202406")/docker/index.html
+echo asd=$(find $HOME -type d -name "202406")docker
+asd=$(find $HOME -type d -name "202406" -first -print)/docker/index.html
+echo $asd
+asd=$(find $HOME -type d -name "202406" -print)/docker/index.html
+asd=$(find $HOME -type d -name "202406" | awk '{print $1}')/docker/index.html
+echo asd=$(find $HOME -type d -name "202406" | awk '{print $1}')/docker/index.html
+asd=$(find $HOME -type d -name "202406" | awk 'NR==1')/docker/index.html
+echo $asd
+ls
+cd ..
+ls
+cd RTA_Examen_20241112/
+ls
+vim Punto_C.sh 
+bash Punto_C.sh 
+cd ..
+ls
+cd 202406/
+ls
+cd bash_script/
+ls
+cd ..
+ls
+cd docker
+cat index.html 
+vim Punto_C.sh 
+vim ../Punto_C.sh 
+cd ..
+cd ..
+ls
+cd RTA_Examen_20241112/
+ls
+vim Punto_C.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+ls
+cd ..
+cd RTA_Examen_20241112/
+pwd
+ls
+cd ..
+cd ..
+ls
+cd UTNFRA_SO_2do_Parcial_Velasco/
+ls
+cd 202406/
+ls
+cd docker
+ls
+cat index.html 
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+grep docker /etc/group
+docker ps
+exit
+sudo systemctl status docker
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+ls /usr/share/ngix
+cd ..
+cd ..
+cd ..
+cd UTN-FRA_SO_Docker/
+ls
+cd ejemplo1
+docker run -d -p 80:80 -v “$PWD”/share/html:user/share/nginx/html nginx
+docker run -d -p 80:80 -v “$PWD”/share/html:user/share/nginx/html nginx
+docker run -d -p 80:80 -v "$PWD/share/html:user/share/nginx/html nginx"
+docker run -d -p 80:80 -v "$PWD/share/html:/usr/share/nginx/html" nginx
+sudo systemctl stop apache2
+sudo ss -tuln | grep :80
+docker run -d -p 80:80 -v "$PWD/share/html:/usr/share/nginx/html" nginx
+docker ps
+docker ps
+ls /usr/share/nginx
+docker exec -it c76a079d6384 bash
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+df -h /dev/mapper/vg_datos-lv_docker
+cd ..
+cd ..
+ls
+cd UTNFRA_SO_2do_Parcial_Velasco/
+ls
+cd RTA_Examen_20241112/
+ls
+bash Punto_A.sh 
+vim Punto_A.sh 
+df -h /dev/mapper/vg_datos-lv_docker
+vim Punto_C.sh 
+vim Punto_C.sh 
+docker login -u luvlsco
+vim Punto_C.sh 
+docker login -u luvlsco
+ls
+vim Punto_C.sh 
+vim Punto_B.sh 
+vim Punto_B.sh 
+vim Punto_C.sh 
+cat Punto_C.sh 
+vim Punto_C.sh 
+bash Punto_C.sh 
+cat Punto_C.sh 
+vim Punto_C.sh 
+ls
+cd ..
+ls
+cd 202406/
+ls
+cd docker
+ls
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+df -h
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+cat LV_DOCKER=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}' | awk -F ':' '{print $1}')
+echo LV_DOCKER=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}' | awk -F ':' '{print $1}')
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+exit
+q
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+docker container prune
+docker image prune -a
+docker image prune
+docker volume prune
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+ls
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+bash /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+docker status
+docker ps
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+vim /home/lucas/repogit/UTNFRA_SO_2do_Parcial_Velasco/RTA_Examen_20241112/Punto_C.sh
+cd ..
+cd ..
+ls
+cd RTA_Examen_20241112/
+git status
+git add Punto_C.sh 
+git commit -m "feat(punto_b): agregado el script del punto c (completado)"
+git push
+git status
+cd ..
+ls
+cd 202406/
+ls
+git status
+cd docker
+ls
+git status
+git add .
+git status
+git commit -m "feat(docker-files): agregados los archivos de docker, modificados/creados por el script del punto C"
+git push
