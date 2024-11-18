@@ -27,7 +27,7 @@ LV_DOCKER=$(sudo fdisk -l | grep "lv_docker" | awk '{print $2}' | awk -F ':' '{p
 sudo lvextend -L +200M $LV_DOCKER
 sudo resize2fs $LV_DOCKER
 
-# Voy a la carpeta de docker, construyo la imagen y luego etiqueto
+# Voy a la carpeta de docker, construyo la imagen y luego la etiqueto
 cd $RUTA_DOCKER
 docker build -t web1-velasco .
 docker tag web1-velasco luvlsco/web1-velasco
@@ -35,8 +35,8 @@ docker tag web1-velasco luvlsco/web1-velasco
 # Creo el script, agrego el puerto y la imagen creada
 cat <<EOF > $RUTA_DOCKER/run.sh
 #!/bin/bash
-docker run -d -p 8080:80 luvlsco/web1-velasco
 
+docker run -d -p 8080:80 luvlsco/web1-velasco
 EOF
 
 # Pusheo la imagen a mi repositorio
